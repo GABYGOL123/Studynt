@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App11.Page1">
@@ -6,146 +6,145 @@
 
         <StackLayout BackgroundColor="#e5e5e5"  Padding="20">
             <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprasimo" TextColor="Goldenrod">Cursos</Label>
-            <ContentView>
-                <Button Text = "Programacion de Videojuegos"
+            <Button Text = "Programacion_de_Videojuegos"
                 Clicked = "MovePage"
+                x:Name="PVJ"
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-        <ContentView>
-            <Button Text = "Estructuas Discretas"
-                        Clicked = "MovePage1"
-                        FontFamily="Lexend"
-                        BackgroundColor = "Goldenrod"
-                        TextColor = "#e5e5e5"
-                        Margin="0,10,0,0"
-                        HeightRequest = "100" 
-                        FontSize="20"/>
-        </ContentView>
-            <ContentView>
-                <Button Text = "Comunicación"
+
+            <Button Text = "Matematica"
+                Clicked = "MovePage1"
+                x:Name="MAT"
+                FontFamily="Lexend"
+                BackgroundColor = "Gray"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+
+            <Button Text = "Estructuras_Discretas"
                 Clicked = "MovePage2"
+                x:Name="DIS"
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Metodologia del Estudio"
+
+            <Button Text = "Comunicacion"
                 Clicked = "MovePage3"
+                x:Name="COM"
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Introducción a la vida Universitaria"
+
+            <Button Text = "Metodologia_del_Estudio"
                 Clicked = "MovePage4"
+                x:Name="MES"                
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Matematica"
-                        Clicked = "MovePage5"
-                        FontFamily="Lexend"
-                        BackgroundColor = "Goldenrod"
-                        TextColor = "#e5e5e5"
-                        Margin="0,10,0,0"
-                        HeightRequest = "100" 
-                        FontSize="20"/>
-        </ContentView>
-            <ContentView>
-                <Button Text = "Introducción de Ciencia de la Computación"
+
+            <Button Text = "Introduccion_a_la_Universidad"
+                Clicked = "MovePage5"
+                x:Name="IVU"                
+                FontFamily="Lexend"
+                BackgroundColor = "Gray"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+
+            <Button Text = "Introduccion_a_CCOMP"
                 Clicked = "MovePage6"
+                x:Name="ICC"                
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Ciencia de la Computacion"
-                        Clicked = "MovePage7"
-                        FontFamily="Lexend"
-                        BackgroundColor = "Goldenrod"
-                        TextColor = "#e5e5e5"
-                        Margin="0,10,0,0"
-                        HeightRequest = "100" 
-                        FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Introducción a la Filosofía"
+
+            <Button Text = "Ciencia_de_la_Computacion"
+                Clicked = "MovePage7"
+                x:Name="CCO"                
+                FontFamily="Lexend"
+                BackgroundColor = "Gray"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+
+            <Button Text = "Introduccion_a_la_Filosofia"
                 Clicked = "MovePage8"
+                x:Name="FIL"                
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Algebra Abstrtacta"
+
+            <Button Text = "Calculo"
                 Clicked = "MovePage9"
+                x:Name="CAL"                
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Arquitectura de Computadores"
+
+            <Button Text = "Arquitectura_de_Computadoras"
                 Clicked = "MovePage10"
+                x:Name="ARQ"                
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Desarrollo basado en plataformas"
+
+            <Button Text = "Algebra_Abstracta"
                 Clicked = "MovePage11"
+                x:Name="ALG"                
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Antropología Filosófica y Teológica"
+
+            <Button Text = "Desarrollo_Basado_en_Plataformas"
                 Clicked = "MovePage12"
+                x:Name="DES"                
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
-            <ContentView>
-                <Button Text = "Cálculo"
+
+            <Button Text = "Antropologia_Filosofica"
                 Clicked = "MovePage13"
+                x:Name="ANT"                
                 FontFamily="Lexend"
-                BackgroundColor = "Goldenrod"
+                BackgroundColor = "Gray"
                 TextColor = "#e5e5e5"
                 Margin="0,10,0,0"
                 HeightRequest = "100" 
                 FontSize="20"/>
-            </ContentView>
             <ContentView>
             <Button Text = "Mi playlist"
                         Clicked = "MovePage14"
