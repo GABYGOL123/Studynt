@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +15,7 @@ namespace App11
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AgregarCurso : ContentPage
     {
+        public string NombreCancion;
         public ISimpleAudioPlayer audioPlayer;
         public AgregarCurso()
         {
@@ -24,45 +25,49 @@ namespace App11
         public void Playlist1_Clicked(object sender, EventArgs e)
         {
             Player("App11.Sonidos.Charly García - Demoliendo Hoteles (Audio).mp3");
+            NombreCancion = "App11.Sonidos.Charly García - Demoliendo Hoteles (Audio).mp3";
         }
         public void Playlist2_Clicked(object sender, EventArgs e)
         {
             Player("App11.Sonidos.15 Minute Timer Lofi.mp3");
-
+            NombreCancion = "App11.Sonidos.15 Minute Timer Lofi.mp3";
         }
         public void Playlist3_Clicked(object sender, EventArgs e)
         {
             Player("App11.Sonidos.30 Minute Beautiful Jellyfish Timer with Soothing Music.mp3");
-
+            NombreCancion = "App11.Sonidos.30 Minute Beautiful Jellyfish Timer with Soothing Music.mp3";
         }
         public void Playlist4_Clicked(object sender, EventArgs e)
         {
             Player("App11.Sonidos.30 Minute Lo-Fi Hiphop Beats Study Timer.mp3");
+            NombreCancion = "App11.Sonidos.30 Minute Lo-Fi Hiphop Beats Study Timer.mp3";
 
         }
         public void Playlist5_Clicked(object sender, EventArgs e)
         {
             Player("App11.Sonidos.30 Minute Timer - Relaxing Instrumental Music.mp3");
+            NombreCancion = "App11.Sonidos.30 Minute Timer - Relaxing Instrumental Music.mp3";
 
         }
         public void Playlist6_Clicked(object sender, EventArgs e)
         {
             Player("App11.Sonidos.30 Minute Timer Lofi.mp3");
-
+            NombreCancion = "App11.Sonidos.30 Minute Timer Lofi.mp3";
         }
         public void Playlist7_Clicked(object sender, EventArgs e)
         {
             Player("App11.Sonidos.330 a.m. ~ lofi hip hop  jazzhop  chillhop mix [studysleephomework music].mp3");
-
+            NombreCancion = "App11.Sonidos.330 a.m. ~ lofi hip hop  jazzhop  chillhop mix [studysleephomework music].mp3";
         }
         public void Playlist8_Clicked(object sender, EventArgs e)
         {
             Player("App11.Sonidos.45 Minute Timer Lofi.mp3");
-
+            NombreCancion = "App11.Sonidos.45 Minute Timer Lofi.mp3";
         }
         public void Playlist9_Clicked(object sender, EventArgs e)
         {
             Player("App11.Sonidos.a playlist for night studies (dark academia).mp3");
+            NombreCancion = "App11.Sonidos.a playlist for night studies (dark academia).mp3";
 
         }
         public void Playlist10_Clicked(object sender, EventArgs e)
@@ -126,12 +131,9 @@ namespace App11
                 }
                 else
                 {
-                    audioPlayer.Play();
-                   
+                    audioPlayer.Play();          
                 }
             }
         }
-
     }
-
 }
