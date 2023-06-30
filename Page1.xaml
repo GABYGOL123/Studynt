@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App11.Page1">
+<ScrollView>
+
+        <StackLayout BackgroundColor="#e5e5e5"  Padding="20">
+            <Label HorizontalOptions="Center" FontSize="25" FontFamily="Caprasimo" TextColor="Goldenrod">Cursos</Label>
+            <ContentView>
+                <Button Text = "Programacion de Videojuegos"
+                Clicked = "MovePage"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+        <ContentView>
+            <Button Text = "Estructuas Discretas"
+                        Clicked = "MovePage1"
+                        FontFamily="Lexend"
+                        BackgroundColor = "Goldenrod"
+                        TextColor = "#e5e5e5"
+                        Margin="0,10,0,0"
+                        HeightRequest = "100" 
+                        FontSize="20"/>
+        </ContentView>
+            <ContentView>
+                <Button Text = "Comunicación"
+                Clicked = "MovePage2"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Metodologia del Estudio"
+                Clicked = "MovePage3"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Introducción a la vida Universitaria"
+                Clicked = "MovePage4"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Matematica"
+                        Clicked = "MovePage5"
+                        FontFamily="Lexend"
+                        BackgroundColor = "Goldenrod"
+                        TextColor = "#e5e5e5"
+                        Margin="0,10,0,0"
+                        HeightRequest = "100" 
+                        FontSize="20"/>
+        </ContentView>
+            <ContentView>
+                <Button Text = "Introducción de Ciencia de la Computación"
+                Clicked = "MovePage6"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Ciencia de la Computacion"
+                        Clicked = "MovePage7"
+                        FontFamily="Lexend"
+                        BackgroundColor = "Goldenrod"
+                        TextColor = "#e5e5e5"
+                        Margin="0,10,0,0"
+                        HeightRequest = "100" 
+                        FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Introducción a la Filosofía"
+                Clicked = "MovePage8"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Algebra Abstrtacta"
+                Clicked = "MovePage9"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Arquitectura de Computadores"
+                Clicked = "MovePage10"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Desarrollo basado en plataformas"
+                Clicked = "MovePage11"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Antropología Filosófica y Teológica"
+                Clicked = "MovePage12"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+                <Button Text = "Cálculo"
+                Clicked = "MovePage13"
+                FontFamily="Lexend"
+                BackgroundColor = "Goldenrod"
+                TextColor = "#e5e5e5"
+                Margin="0,10,0,0"
+                HeightRequest = "100" 
+                FontSize="20"/>
+            </ContentView>
+            <ContentView>
+            <Button Text = "Mi playlist"
+                        Clicked = "MovePage14"
+                        FontFamily="Lexend"
+                        BackgroundColor = "Goldenrod"
+                        TextColor = "#e5e5e5"
+                        Margin="0,10,0,0"
+                        HeightRequest = "100" 
+                        FontSize="20"/>
+        </ContentView>
+            <Frame Margin="70,15,70,10" IsClippedToBounds="True" CornerRadius="50" Padding="0">
+                <Button Text = "+"
+                    FontSize="20"
+                    FontFamily="Caprasimo"
+                    Clicked = "MoveTo"
+                    BackgroundColor = "Goldenrod"
+                    TextColor = "WhiteSmoke"/>
+            </Frame>
+        </StackLayout>
+
+
+    </ScrollView>
+
+</ContentPage>
